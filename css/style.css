@@ -1,0 +1,1283 @@
+/* ========================== */
+/* ===== common css ===== */
+/* ========================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1300px;
+}
+
+img{
+    display: block;
+}
+
+
+
+/* ========================== */
+/* ===== common css ===== */
+/* ========================== */
+
+
+/* ========================== */
+/* ===== header section ===== */
+/* ========================== */
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    z-index: 9999;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+header .navbar{
+    background: #0C0B08;
+    padding: 0;
+}
+
+header .navbar .container-fluid{
+    padding: 32px 120px;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 175%;
+    letter-spacing: 0.64px; 
+    color: var(--ffffff, #FFF); 
+    margin: 0 16px;
+}
+
+header .navbar .collapse .d-flex .btno{
+    color: #FFF;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 175%;
+    letter-spacing: 0.8px;
+    text-transform: capitalize; 
+}
+
+header .navbar .collapse .d-flex .btno:first-child{
+    padding-right: 50px;
+    position: relative;
+}
+
+header .navbar .collapse .d-flex .btno:first-child img{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+
+header .navbar .collapse .d-flex .btno:last-child{
+    padding-left: 50px;
+}
+/* ========================== */
+/* ===== header section ===== */
+/* ========================== */
+
+
+/* ========================== */
+/* ===== banner section ===== */
+/* ========================== */
+
+#banner_part{
+    background: #0C0B08;
+    padding: 48px 0;
+    position: relative;
+}
+
+#banner_part .left{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+#banner_part .left p{
+    color: #FFF;
+    font-size: 18px;
+    font-family: Open Sans;
+    line-height: 175%;
+    letter-spacing: 0.72px; 
+}
+
+#banner_part .right{
+    position: absolute;
+    bottom: 152px;
+    right: 50px;
+}
+
+#banner_part .right p{
+    color: var(--dcca-87, #DCCA87);
+    font-size: 16px;
+    font-family: Cormorant Upright;
+    font-weight: 700;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    text-transform: uppercase; 
+}
+
+#banner_part .right p::after{
+    content: "";
+    width: 1px;
+    height: 61px;
+    background: #DCCA87;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(50%);
+    animation: right_p_line 5s linear infinite;
+}
+
+@keyframes right_p_line{
+    0%{ 
+    transform: translateX(50%) translateY(0px);
+    }
+    25%{ 
+    transform: translateX(50%) translateY(80px);
+    }
+    50%{  
+        transform: translateX(50%) translateY(0px);
+    }
+    75%{  
+        transform: translateX(50%) translateY(-80px);
+    }
+    100%{
+    transform: translateX(50%) translateY(0px);
+    }
+}
+
+#banner_part .bottom{
+    text-align: center;
+}
+
+#banner_part .bottom p{
+    color: #FFF;
+    font-size: 16px;
+    font-family: Cormorant Upright;
+    font-weight: 600;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    text-transform: capitalize; 
+}
+
+.text_left{
+    text-align: left;
+}
+
+.text_left .banner_spone{
+    margin: 0;
+}
+
+.text_left h4{
+    color: #FFF;
+    font-size: 16px;
+    font-family: Cormorant Upright;
+    font-weight: 600;
+    letter-spacing: 0.64px;
+    text-transform: capitalize; 
+    margin-bottom: 8px;
+}
+
+.text_left h2{
+    color: var(--dcca-87, #DCCA87);
+    font-size: 90px;
+    font-family: Cormorant Upright;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 3.6px;
+    text-transform: capitalize;
+    width: 463px;
+    text-align: left;
+    margin: 8px 0 32px;
+}
+
+.text_left p{
+    color: var(--aaaaaa, #AAA);
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    width: 453px;
+    margin-bottom: 32px;
+}
+
+.buttone{
+    color: #0C0B08;
+    font-size: 16px;
+    font-family: Cormorant Upright;
+    font-weight: 700;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    padding: 8px 32px;
+    background: #DCCA87;
+    border: 1px solid #DCCA87;
+    transition: all linear 0.4s;
+}
+
+.buttone:hover{
+    background: transparent;
+    color: #FFF;
+    border: 1px solid #DCCA87;
+}
+
+#banner_part .container .row .col-lg-6 .main{
+    width: 100%;
+    height: 734px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 64px;
+}
+
+#banner_part .container .row .col-lg-6 .main .one {
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	width: 435px;
+	height: 435px;
+	background: #DCCA87;
+}
+
+#banner_part .container .row .col-lg-6 .main .two {
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	width: 435px;
+	height: 435px;
+	background: #DCCA87;
+}
+
+
+#banner_part .container .row .col-lg-6 .main .sliders{
+    background: #000;
+    width: 581px;
+    height: 688px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* ========================== */
+/* ===== banner section ===== */
+/* ========================== */
+
+
+/* ========================== */
+/* ===== about section ===== */
+/* ========================== */
+
+#about_part{
+    background: url(../images/aboutbg.png) no-repeat center/cover;
+    padding: 128px 0;
+    position: relative;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#about_part .container .row{
+    z-index: 2;
+    position: relative;
+}
+
+#about_part .col-lg-2 .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about_part .col-lg-5 .left{
+    text-align: right;
+    margin: 216px 0;
+}
+
+#about_part .col-lg-5 .left img{
+    margin-left: auto;
+}
+
+#about_part .col-lg-5 .left h3{
+    color: var(--dcca-87, #DCCA87);
+    font-size: 64px;
+    font-family: Cormorant Upright;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+}
+
+#about_part .col-lg-5 .left p{
+    color: var(--aaaaaa, #AAA);
+    text-align: right;
+    margin: 32px 0;
+    font-size: 16px;
+    width: 523px;
+    font-family: Open Sans;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+#about_part .col-lg-5 .right{
+    text-align: left;
+    margin: 216px 0;
+}
+
+#about_part .col-lg-5 .right h3{
+    color: var(--dcca-87, #DCCA87);
+    font-size: 64px;
+    font-family: Cormorant Upright;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+}
+
+#about_part .col-lg-5 .right p{
+    color: var(--aaaaaa, #AAA);
+    text-align: left;
+
+    margin: 32px 0;
+    /* Body 16px Regular */
+    font-size: 16px;
+    width: 523px;
+    font-family: Open Sans;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+/* ========================== */
+/* ===== about section ===== */
+/* ========================== */
+
+
+/* ========================== */
+/* === book_table section === */
+/* ========================== */
+#book_table{
+    padding: 152px 0;
+    background: url(../images/rivew_part_bg.jpg) no-repeat center/cover;
+    position: relative;
+}
+
+.overround{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/spoune\ bg\ round.png) no-repeat center/cover;
+    width: 146px;
+    height: 146px;
+    position: absolute;
+    top: -40px;
+    right: 0;
+    animation: circle_bg 5s linear infinite;
+    margin-right: 152px;
+    z-index: 2;
+}
+
+@keyframes circle_bg{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#book_table .container .row{
+    border: 1px solid rgba(220, 202, 135, 0.20);
+    background: var(--0-c-0-c-0-c, #0C0C0C);
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.70);
+    padding: 38px 32px;
+}
+
+#book_table .container .row .col-lg-4{
+    text-align: center;
+}
+
+
+#book_table .container .row .col-lg-4 select{
+    width: 100%;
+    padding: 16px;
+    border: 1px solid var(--f-5-efdb, #F5EFDB);
+    background: transparent;
+    color: var(--aaaaaa, #AAA);
+    font-size: 16px;
+    font-family: Cormorant Upright;
+    font-weight: 600;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    text-transform: capitalize;
+}
+
+.text{
+    text-align: center;
+}
+
+.text h4{
+    color: var(--ffffff, #FFF);
+    font-size: 23px;
+    font-family: Cormorant Upright;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+
+.text img{
+    margin: 0 auto;
+}
+
+.text h2{
+    color: var(--dcca-87, #DCCA87);
+    text-align: center;
+    font-size: 64px;
+    font-family: Cormorant Upright;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+    margin-bottom: 64px;
+}
+
+#book_table .container .row .col-lg-4 input{
+    width: 100%;
+    padding: 16px;
+    border: 1px solid var(--f-5-efdb, #F5EFDB);
+    background: transparent;
+    color: var(--aaaaaa, #AAA);
+    font-size: 12px;
+    font-family: Cormorant Upright;
+    font-weight: 600;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    text-transform: capitalize;
+    margin-bottom: 64px;
+}
+
+/* ========================== */
+/* === book_table section === */
+/* ========================== */
+
+
+/* ========================== */
+/* === menu_part section ==== */
+/* ========================== */
+
+#menu_part{
+    padding: 262px 0;
+    background: url(../images/rivew_part_bg.jpg) no-repeat center/cover;
+    position: relative;
+}
+
+#menu_part .overround{
+    left: 0;
+    margin-left: 152px;
+}
+
+
+#menu_part .container .row .col-lg-12 {
+    position: relative;
+}
+
+#menu_part .container .row .col-lg-12 {
+	position: relative;
+	z-index: 2;
+}
+
+#menu_part .container .row .col-lg-12 .menu_text{
+    transform: translateX(-50px);
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 64px;
+}
+
+#menu_part .container .row .col-lg-12 .menu_text a{
+    color: #FFF;
+    font-size: 64px;
+    font-family: Cormorant Upright;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+    transition: all linear 0.4s;
+}
+
+#menu_part .container .row .col-lg-12 .menu_text a:hover{
+    text-decoration-line: underline;
+}
+
+/* ========================== */
+/* === menu_part section ==== */
+/* ========================== */
+
+
+/* ========================== */
+/* === today_menu section === */
+/* ========================== */
+
+#today_menu{
+    padding: 152px 0;
+    background: url(../images/rivew_part_bg.jpg) no-repeat center/cover;
+    text-align: center;
+}
+
+#today_menu .container .row{
+    margin: 64px 0;
+}
+
+#today_menu .container .row .col-lg-4 .menu_list h3{
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-size: 45px;
+    font-family: Cormorant Upright;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+    margin-bottom: 48px;
+}
+
+#today_menu .container .row .col-lg-4 .menu_list .items{
+    margin-bottom: 40px;
+}
+
+#today_menu .container .row .col-lg-4 .menu_list .items .product{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#today_menu .container .row .col-lg-4 .menu_list .items .product::after {
+	content: "";
+	width: 100px;
+	height: 1px;
+	background: #DCCA87;
+	position: absolute;
+	top: 50%;
+	left: 57%;
+	transform: translateY(-50%);
+}
+
+#today_menu .container .row .col-lg-4 .menu_list .items .product p{
+    color: var(--dcca-87, #DCCA87);
+    font-size: 23px;
+    font-family: Cormorant Upright;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+
+#today_menu .container .row .col-lg-4 .menu_list .items .product .price{
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-size: 23px;
+    font-family: Cormorant Upright;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+
+#today_menu .container .row .col-lg-4 .menu_list .items .details{
+    text-align: left;
+}
+
+#today_menu .container .row .col-lg-4 .menu_list .items .details p{
+    color: var(--aaaaaa, #AAA);
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+/* ========================== */
+/* === today_menu section === */
+/* ========================== */
+
+/* ========================== */
+/* === Chefs_info section === */
+/* ========================== */
+
+#Chefs_info{
+    padding: 128px 0;
+    background: url(../images/rivew_part_bg.jpg) no-repeat center/cover;
+    position: relative;
+}
+
+#Chefs_info .container{
+    position: relative;
+    z-index: 3;
+}
+
+#Chefs_info .container .row .col-lg-6 .main{
+    width: 100%;
+    height: 789px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 64px;
+}
+
+
+#Chefs_info .container .row .col-lg-6 .main .one {
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	width: 435px;
+	height: 435px;
+	background: #DCCA87;
+}
+
+#Chefs_info .container .row .col-lg-6 .main .two {
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	width: 435px;
+	height: 435px;
+	background: #DCCA87;
+}
+
+
+#Chefs_info .container .row .col-lg-6 .main .sliders{
+    background: #000;
+    width: 581px;
+    height: 688px;
+    position: absolute;
+    top: 46.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#Chefs_info .container .row .col-lg-6 .slider_part {
+	width: 100%;
+	margin: 87px 0 0 64px;
+}
+
+#Chefs_info .container .row .col-lg-6 .slider_part .text_slider .text_part{
+    text-align: left;
+}
+
+#Chefs_info .container .row .col-lg-6 .slider_part .text_slider .text_part h4{
+    color: var(--ffffff, #FFF);
+    font-size: 23px;
+    font-family: Cormorant Upright;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+
+#Chefs_info .container .row .col-lg-6 .slider_part .text_slider .text_part h2{
+    color: var(--dcca-87, #DCCA87);
+    font-size: 64px;
+    font-family: Cormorant Upright;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 64px;
+}
+
+#Chefs_info .container .row .col-lg-6 .slider_part .text_slider .text_part p{
+    color: var(--aaaaaa, #AAA);
+    font-size: 16px;
+    font-family: Open Sans;
+    font-style: italic;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    width: 570px;
+    margin-bottom: 64px;
+}
+
+#Chefs_info .container .row .col-lg-6 .slider_part .text_slider .text_part h5{
+    color: var(--dcca-87, #DCCA87);
+    font-size: 32px;
+    font-family: Cormorant Upright;
+    line-height: 130%;
+    letter-spacing: 1.28px;
+    text-transform: capitalize;
+}
+
+#Chefs_info .container .row .col-lg-6 .slider_part .text_slider .text_part .position{
+    color: var(--aaaaaa, #AAA);
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    margin-bottom: 64px;
+}
+
+#Chefs_info .container .row .col-lg-6 .slider_part .text_slider .text_part .signature{
+    color: var(--aaaaaa, #AAA);
+    font-size: 64px;
+    font-family: Great Vibes;
+    line-height: 130%;
+    letter-spacing: 2.56px;
+}
+
+/* ========================== */
+/* === Chefs_info section === */
+/* ========================== */
+
+
+/* ========================== */
+/* === review_part section == */
+/* ========================== */
+#review_part{
+    padding: 152px 0;
+    background: url(../images/rivew_part_bg.jpg) no-repeat center/cover;
+    position: relative;
+}
+
+#review_part .container .row .col-lg-6 .reviewer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 82px;
+}
+
+#review_part .container .row .col-lg-6 .reviewer .one{
+    position: relative;
+}
+
+#review_part .container .row .col-lg-6 .reviewer .one .comma{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(50%);
+}
+
+#review_part .container .row .col-lg-6 .reviewer .two{
+    width: 412px;
+}
+
+#review_part .container .row .col-lg-6 .reviewer .two p{
+    color: var(--aaaaaa, #AAA);
+    font-size: 16px;
+    font-family: Open Sans;
+    font-style: italic;
+    line-height: 175%;
+}
+
+#review_part .container .row .col-lg-6 .reviewer .two h3{
+    color: var(--dcca-87, #DCCA87);
+    font-size: 32px;
+    font-family: Cormorant Upright;
+    line-height: 130%;
+    letter-spacing: 1.28px;
+    text-transform: capitalize;
+    margin: 16px 0 4px;
+}
+
+#review_part .container .row .col-lg-6 .reviewer .two h4{
+    color: var(--f-5-efdb, #F5EFDB);
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+/* ========================== */
+/* === review_part section == */
+/* ========================== */
+
+
+/* ========================== */
+/* === Video_part section === */
+/* ========================== */
+#video_part{
+    padding: 322px 0;
+    background: url(../images/video_part_bg.jpg) no-repeat center/cover;
+    position: relative;
+}
+
+#video_part .overround{
+    top: 147px;
+    left: 197px;
+}
+
+#video_part .contaienr .row .col-lg-12 .video_link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 33;
+}
+
+#video_part .contaienr .row .col-lg-12 .video_link a i{
+    color: #FFF;
+    font-size: 200px;
+}
+
+#video_part .contaienr .row .col-lg-12 .video_link span{
+    display: none;
+}
+
+.venoratio {
+    width: 60% !important;
+}
+
+.vbox-close {
+    top:4%;
+    right:19%;
+}
+
+/* ========================== */
+/* === Video_part section === */
+/* ========================== */
+
+
+/* ========================== */
+/* == laurels_part section == */
+/* ========================== */
+
+#laurels_part{
+    padding: 128px 0;
+    background: url(../images/rivew_part_bg.jpg) no-repeat center/cover;
+    position: relative;
+}
+
+#laurels_part .container{
+    position: relative;
+    z-index: 33;
+}
+
+#laurels_part .container .row .text{
+    margin-top: 118px;
+}
+
+#laurels_part .container .row .text .text_left h2{
+    text-align: left;
+}
+
+#laurels_part .container .row .text .text_left{
+    margin-bottom: 64px;
+}
+
+#laurels_part .container .row .text .one{
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#laurels_part .container .row .text .one .text01{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 301px;
+    text-align: left;
+}
+
+#laurels_part .container .row .text .one .text01 .textes{
+    width: 191px;
+}
+
+#laurels_part .container .row .text .one .text01 .textes h4{
+    color: var(--dcca-87, #DCCA87);
+    font-size: 23px;
+    font-family: Cormorant Upright;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+
+#laurels_part .container .row .text .one .text01 .textes p{
+    color: var(--aaaaaa, #AAA);
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+#laurels_part .container .row .col-lg-6 .slider_part{
+    position: relative;
+    margin-left: 111px;
+}
+
+#laurels_part .container .row .col-lg-6 .slider_part .G{
+    position: absolute;
+    top: 312px;
+    right: 228px;
+    z-index: 33;
+}
+
+/* ========================== */
+/* == laurels_part section == */
+/* ========================== */
+
+
+
+
+
+/* ========================== */
+/* updates + gallary_P section*/
+/* ========================== */
+
+#updates__gallary_part{
+    overflow: hidden;
+    background: url(../images/rivew_part_bg.jpg) no-repeat center/cover;
+}
+
+
+/* ========================== */
+/* updates + gallary_P section*/
+/* ========================== */
+
+
+/* ========================== */
+/* ====  updates section ==== */
+/* ========================== */
+#updates{
+    padding: 152px 0;
+    position: relative;
+    text-align: center;
+}
+
+#updates .overround{
+    top: 80%;
+}
+
+#updates .container .row .col-lg-4 .card{
+    text-align: left;
+    background: transparent;
+    margin: 64px 0;
+}
+
+#updates .container .row .col-lg-4 .card .img{
+    height: 430px;
+    margin-bottom: 24px;
+}
+
+#updates .container .row .col-lg-4 .card .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+#updates .container .row .col-lg-4 .card .top p{
+    color: var(--fafafa, #FAFAFA);
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    width: auto;
+}
+
+#updates .container .row .col-lg-4 .card h2{
+    color: var(--dcca-87, #DCCA87);
+    font-size: 32px;
+    font-family: Cormorant Upright;
+    line-height: 130%;
+    letter-spacing: 1.28px;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+
+#updates .container .row .col-lg-4 .card h2:hover{
+    text-decoration-line: underline;
+}
+
+#updates .container .row .col-lg-4 .card p{
+    color: var(--aaaaaa, #AAA);
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    margin-bottom: 32px;
+    width: 412px;
+}
+
+#updates .container .row .col-lg-4 .card a{
+    color: var(--dcca-87, #DCCA87);
+
+    /* Button */
+    font-size: 16px;
+    font-family: Cormorant Upright;
+    font-weight: 700;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+/* ========================== */
+/* ====  updates section ==== */
+/* ========================== */
+
+
+/* ========================== */
+/* == gallary_part section == */
+/* ========================== */
+
+#gallary_part {
+	padding: 209px 0 543px;
+	position: relative;
+	background-position-x: 56%;
+}
+
+#gallary_part .overround{
+    top: 646px;
+    left: 106px;
+}
+
+#gallary_part .container .row .col-lg-5 .text_left h2{
+    font-size: 64px;
+}
+
+#gallary_part .container .row{
+    position: relative;
+}
+
+#gallary_part .container .row .slider_part {
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+
+#gallary_part .container .row .slider_part .gallary_slider .slider .slider_card{
+    width: 301px;
+    height: 447px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#gallary_part .container .row .slider_part .gallary_slider .slider .slider_card .overlay{
+    transform: scale(0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.4s;
+}
+
+#gallary_part .container .row .slider_part .gallary_slider .slider .slider_card:hover .overlay{
+    transform: scale(1);
+}
+
+#gallary_part .container .row .slider_part .gallary_slider .slider .slider_card .overlay a i{
+    font-size: 43px;
+    color: #FFF;
+}
+
+/* ========================== */
+/* == gallary_part section == */
+/* ========================== */
+
+
+/* ========================== */
+/* === footer_part section == */
+/* ========================== */
+
+footer{
+    padding: 349px 0 128px;
+    background: url(../images/footer_bg.jpg) no-repeat center/cover;
+    position: relative;
+    text-align: center;
+}
+
+footer .right {
+	position: absolute;
+	top: 242px;
+	right: 120px;
+}
+
+footer .right p {
+	color: var(--dcca-87, #DCCA87);
+	font-size: 16px;
+	font-family: Cormorant Upright;
+	font-weight: 700;
+	line-height: 175%;
+	letter-spacing: 0.64px;
+	text-transform: uppercase;
+}
+
+footer .right p::after {
+	content: "";
+	width: 1px;
+	height: 61px;
+	background: #DCCA87;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(50%);
+	animation: right_p_line 5s linear infinite;
+}
+
+footer .floting_bar{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    z-index: 33;
+    transform: translate(-50%, -50%);
+    padding: 64px 252px;
+    border: 1px solid rgba(220, 202, 135, 0.20);
+    background: var(--0-c-0-c-0-c, #0C0C0C);
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.70);
+}
+
+footer .floting_bar .text h2{
+    margin-bottom: 8px;
+} 
+
+footer .floting_bar p{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    margin-bottom: 64px;
+}
+
+footer .floting_bar .input_bar{
+    display: flex;
+    align-items: center;
+}
+
+footer .floting_bar .input_bar input{
+    color: var(--aaaaaa, #AAA);
+    font-size: 16px;
+    font-family: Cormorant Upright;
+    font-weight: 600;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    text-transform: capitalize;
+    padding: 16px 18px;
+    background: transparent;
+    width: 635px;
+    margin-right: 32px;
+}
+
+footer .container{
+    position: relative;
+    z-index: 33;
+}
+
+footer .container .col-lg-4 .one {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+footer .container .col-lg-4 .one h3{
+    color: var(--f-5-efdb, #F5EFDB);
+    font-size: 32px;
+    font-family: Cormorant Upright;
+    line-height: 130%;
+    letter-spacing: 1.28px;
+    text-transform: capitalize;
+}
+
+footer .container .col-lg-4 .one p{
+    color: var(--aaaaaa, #AAA);
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+footer .container .col-lg-4 .two h2{
+    color: var(--dcca-87, #DCCA87);
+    text-align: center;
+    font-size: 64px;
+    font-family: Cormorant Upright;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 2.56px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+footer .container .col-lg-4 .two p{
+    width: 438px;
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    margin: 0 auto;
+}
+
+footer .container .col-lg-4 .two img {
+	margin: 16px auto;
+}
+
+footer .container .col-lg-4 .two .icons a i{
+    font-size: 24px;
+    color: #fff;
+    margin: 0 8px;
+}
+
+footer .container .col-lg-4 .two a p{
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    margin-top: 80px;
+}
+
+/* ========================== */
+/* === footer_part section == */
+/* ========================== */
+
+.backto_top{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #DCCA87;
+    background: transparent;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    border-radius: 5px;
+    display: none;
+}
+
+.backto_top i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #DCCA87;
+    font-size: 30px;
+}

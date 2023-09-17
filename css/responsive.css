@@ -1,0 +1,1780 @@
+ 
+/* === For X-Small Device === */
+ 
+@media (min-width: 300px) and (max-width: 575.98px) { 
+
+     
+    /* ===== header section ===== */
+
+    header .navbar .container-fluid {
+        padding: 20px 15px;
+    }
+
+    header .navbar .navbar-brand img{
+        width: 150px;
+    }
+
+    header .navbar .navbar-nav .nav-item .nav-link {
+	    margin: 0;
+    }
+
+    header .navbar .navbar-nav .nav-item .nav-link {
+	    font-size: 14px;
+    }
+
+    .d-flex {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    header .navbar .collapse .d-flex .btno:first-child {
+	    padding-right: 0;
+    }
+
+    header .navbar .collapse .d-flex .btno:last-child {
+	    padding-left: 0;
+    }
+    
+     
+    /* ===== header section ===== */
+     
+
+     
+    /* ===== banner section ===== */
+     
+    #banner_part {
+        padding: 10px 0 30px;
+    }
+
+    .text_left h2 {
+        font-size: 35px;
+        width: auto;
+        margin: 8px 0 15px;
+    }
+
+    .text_left p {
+        font-size: 12px;
+        width: auto;
+        margin-bottom: 25px;
+    }
+
+    .buttone {
+        font-size: 12px;
+        padding: 6px 17px;
+        margin-bottom: 20px;
+    }
+
+    #banner_part .container .row .col-lg-6 .main {
+        height: 350px;
+    }
+
+    #banner_part .container .row .col-lg-6 .main .one {
+        display: none;
+    }
+
+    #banner_part .container .row .col-lg-6 .main .two {
+        display: none;
+    }
+
+    #banner_part .container .row .col-lg-6 .main .sliders {
+        width: 281px;
+        height: auto;
+    }
+
+    .slick-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #banner_part .right {
+        bottom: 0;
+        right: 0;
+    }
+
+    #banner_part .left {
+        top: 90%;
+        left: 0;
+    }
+
+    #banner_part .left p {
+	    font-size: 12px;
+    }
+
+    #banner_part .right p {
+	    font-size: 12px;
+    }
+    #banner_part .right p::after {
+	height: 31px;
+    }
+
+     
+    /* ===== banner section ===== */
+     
+
+     
+    /* ====== about section ===== */
+     
+    #about_part {
+	    padding: 28px 0;
+    }
+
+    #about_part .col-lg-5 .left {
+        margin: 0;
+        text-align: center;
+    }
+
+    #about_part .col-lg-5 .left h3 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    #about_part .col-lg-5 .left img {
+        margin: 0 auto;
+    }
+
+    #about_part .col-lg-5 .left p {
+        width: auto;
+	    margin: 12px 0;
+	    text-align: center;
+    }
+
+    #about_part .col-lg-5 .right {
+        margin: 0;
+        text-align: center;
+    }
+
+    #about_part .col-lg-5 .right h3 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    #about_part .col-lg-5 .right img {
+        margin: 0 auto;
+    }
+
+    #about_part .col-lg-5 .right p {
+        width: auto;
+	    margin: 12px 0;
+	    text-align: center;
+    }
+
+     
+    /* ====== about section ===== */
+     
+
+     
+    /* === book_table section === */
+     
+
+    #book_table {
+        padding: 80px 0;
+    }
+
+    .overround {
+        width: 86px;
+        height: 86px;
+        margin-right: 32px;
+    }
+
+    .overround img{
+        width: 40px;
+    }
+
+    .text img{
+        margin: 0 auto;
+    }
+
+    .text h2 {
+        font-size: 35px;
+    }
+
+    #book_table .container .row .col-lg-4 {
+        margin-bottom: 20px;
+    }
+
+    #book_table .container .row .one {
+        order: 1;
+    }
+
+    #book_table .container .row .tow {
+        order: 3;
+    }
+
+    #book_table .container .row .three {
+        order: 2;
+    }
+
+    #book_table .container .row .col-lg-4 input {
+        margin-bottom: 0px;
+    }
+    
+    #book_table .container .row .tow .buttone{
+        margin-top: 20px;
+    }
+
+    #book_table .container .row {
+        padding: 30px 15px;
+    }
+    
+     
+    /* === book_table section === */
+     
+
+     
+    /* === menu_part section ==== */
+     
+
+    #menu_part {
+        padding: 62px 0;
+    }
+
+    #menu_part .overround {
+        margin-left: 52px;
+    }
+
+    #menu_part .container .row .col-lg-12 .menu_text {
+        transform: translateX(0px);
+    }
+
+    #menu_part .container .row .col-lg-12 .menu_text a {
+        font-size: 34px;
+        line-height: 50%;
+    }
+
+     
+    /* === menu_part section ==== */
+     
+
+     
+    /* === today_menu section === */
+     
+
+    #today_menu {
+        padding: 52px 0;
+    }
+
+    #today_menu .container .row .col-lg-4 .menu_list h3 {
+        font-size: 35px;
+    }
+
+    #today_menu .container .row .col-lg-4 .menu_list .items .product::after {
+        width: 20px;
+        top: 37%;
+        left: 75%;
+    }
+
+    #today_menu .container .row .col-lg-4 .menu_botol {
+        width: 100%;
+    }
+
+    #today_menu .container .row {
+        margin: 34px 0;
+    }
+
+     
+    /* === today_menu section === */
+     
+
+     
+    /* === Chefs_info section === */
+     
+    #Chefs_info {
+        padding: 28px 0;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .main {
+        height: 350px;
+        margin-bottom: 0px;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .main .one {
+        display: none;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .main .two {
+        display: none;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .main .sliders {
+        width: 281px;
+        height: auto;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .main .sliders img{
+        width: 281px;
+        height: auto;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .slider_part{
+        margin: 0;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .slider_part  .slick-slide img{
+        width: auto;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .slider_part .text_slider .text_part h4 {
+        font-size: 20px;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .slider_part .text_slider .text_part h2 {
+        font-size: 40px;
+        margin-bottom: 24px;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .slider_part .text_slider .text_part p {
+        font-size: 12px;
+        width: auto;
+        margin-bottom: 24px;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .slider_part .text_slider .text_part p img{
+        width: 20px;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .slider_part .text_slider .text_part .signature {
+        font-size: 40px;
+    }
+
+     
+    /* === Chefs_info section === */
+     
+
+     
+    /* === ridvew_part section == */
+     
+    #review_part {
+        padding: 52px 0;
+    }
+
+    #review_part .container .row .col-lg-6 .reviewer {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    #review_part .container .row .col-lg-6 .reviewer .one .comma {
+        bottom: -25px;
+        right: 64px;
+        transform: translate(0);
+    }
+
+    #review_part .container .row .col-lg-6 .reviewer .two {
+        width: auto;
+    }
+
+    #review_part .container .row .col-lg-6 .reviewer .two p {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    #review_part .container .row .col-lg-6 .reviewer .two h3 {
+        font-size: 25px;
+    }
+
+     
+    /* === ridvew_part section == */
+     
+
+     
+    /* === Video_part section === */
+     
+    #video_part {
+        padding: 80px 0;
+    }
+
+    #video_part .contaienr .row .col-lg-12 .video_link a i {
+        font-size: 40px;
+    }
+
+    
+    #video_part .contaienr .row{
+        --bs-gutter-x: 0rem !important;
+    }
+
+    #video_part .overround {
+        top: 210px;
+    }
+    
+     
+    /* === Video_part section === */
+     
+
+     
+    /* == laurels_part section == */
+     
+    #laurels_part {
+        padding: 30px 0;
+    }
+
+    #laurels_part .container .row .text {
+        margin-top: 30px;
+    }
+
+    #laurels_part .container .row .text .text_left {
+        margin-bottom: 64px;
+        text-align: center;
+    }
+
+    #laurels_part .container .row .text .text_left h2 {
+        text-align: center;
+    }
+
+    #laurels_part .container .row .text .one {
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 34px;
+    }
+
+    #laurels_part .container .row .text .one .text01 {
+        gap: 29px;
+        width: auto;
+    }
+
+    #laurels_part .container .row .text .one .text01 .textes {
+        width: auto;
+    }
+
+    #laurels_part .container .row .text .one .text01 img{
+        width: 50px;
+    }
+
+    #laurels_part .container .row .text .one .text01 .textes h4 {
+        font-size: 19px;
+        line-height: 122%;
+    }
+
+    #laurels_part .container .row .col-lg-6 .slider_part {
+        margin-left: 0px;
+    }
+
+    #laurels_part .container .row .col-lg-6 .slider_part .G {
+        top: 160px;
+        right: 60px;
+        width: 230px;
+    }
+
+     
+    /* == laurels_part section == */
+     
+
+     
+    /* == Updates_part section == */
+     
+    #updates {
+        padding: 52px 0;
+    }
+
+    #updates .container .row .col-lg-4 .card {
+        margin: 30px 0;
+    }
+
+    #updates .container .row .col-lg-4 .card .img {
+        margin-bottom: 24px;
+        height: auto;
+        width: 100%;
+    }
+
+    #updates .container .row .col-lg-4 .card .img img{
+        width: 100%;
+    }
+
+    #updates .container .row .col-lg-4 .card .top {
+        margin-bottom: 0px;
+    }
+
+    #updates .container .row .col-lg-4 .card h2 {
+        margin-bottom: 0px;
+    }
+
+    #updates .container .row .col-lg-4 .card p {
+        font-size: 12px;
+        width: auto;
+    }
+
+     
+    /* == Updates_part section == */
+     
+
+     
+    /* == Gallary_part section == */
+     
+    #gallary_part {
+        padding: 20px 0 741px;
+    }
+
+    #gallary_part .container .row .slider_part {
+        top: 100%;
+        left: 0;
+    }
+
+    #gallary_part .container .row .slider_part .gallary_slider .slider .slider_card {
+        margin: 0 auto;
+    }
+
+     
+    /* == Gallary_part section == */
+     
+
+     
+    /* == Footer_part section === */
+     
+
+    footer {
+        padding: 349px 0 28px;
+    }
+
+    footer .floting_bar {
+        padding: 18px 23px;
+        width: 100%;
+    }
+
+    footer .floting_bar .input_bar {
+        flex-direction: column;
+    }
+    
+    footer .floting_bar .input_bar input {
+        font-size: 16px;
+        width: auto;
+        margin-right: 0;
+        padding: 6px 3px;
+    }
+    
+    footer .floting_bar .input_bar .buttone {
+        margin: 20px 0;
+    }
+    footer .right {
+        top: 300px;
+        right: 20px;
+        z-index: 33;
+    }
+
+    footer .right p::after {
+        height: 31px;
+    }
+
+    footer .container .col-lg-4 .two h2 {
+	    font-size: 45px;
+    }
+
+    footer .container .col-lg-4 .two p {
+        width: auto;
+    }
+
+    footer .container .one{
+        order: 2;
+    }
+
+    footer .container .two{
+        order: 1;
+    }
+
+    footer .container .three{
+        order: 3;
+    }
+
+     
+    /* == Footer_part section === */
+     
+}
+
+ 
+/* === For X-Small Device === */
+ 
+
+/* === For Medium Device === */
+ 
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+     
+    /* ===== header section ===== */
+     
+
+    header .navbar .container-fluid {
+        padding: 20px 15px;
+    }
+
+    header .navbar .navbar-brand img{
+        width: 150px;
+    }
+
+    header .navbar .navbar-nav .nav-item .nav-link {
+	    margin: 0;
+    }
+
+    header .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .d-flex {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    header .navbar .collapse .d-flex .btno {
+        color: #FFF;
+        font-size: 18px;
+    }
+
+    header .navbar .collapse .d-flex .btno:first-child {
+	    padding-right: 0;
+    }
+
+    header .navbar .collapse .d-flex .btno:last-child {
+	    padding-left: 0;
+    }
+    
+     
+    /* ===== header section ===== */
+     
+
+     
+    /* ===== banner section ===== */
+     
+
+
+    .text_left h2 {
+        font-size: 55px;
+    }
+
+    .buttone {
+        margin-bottom: 40px;
+    }
+   
+    #banner_part .container .row .col-lg-6 .main .one {
+        display: none;
+    }
+   
+    #banner_part .container .row .col-lg-6 .main .two {
+        display: none;
+    }
+
+    #banner_part .container .row .col-lg-6 .main .sliders {
+        width: 500px;
+        height: 650px;
+        overflow: hidden;
+    }
+
+    #banner_part .right {
+        bottom: 52px;
+        right: 20px;
+    }
+
+    #banner_part .left {
+        top: 31%;
+        left: 80%;
+    }
+
+     
+    /* ===== banner section ===== */
+     
+
+     
+    /* ====== about section ===== */
+     
+
+    #about_part{
+        padding: 100px 0;
+    }
+
+    #about_part .col-lg-5 .left {
+        margin: 0;
+        text-align: center;
+    }
+
+    #about_part .col-lg-5 .left h3 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #about_part .col-lg-5 .left img {
+        margin: 0 auto;
+    }
+
+    #about_part .col-lg-5 .left p {
+        width: auto;
+	    margin: 17px 0;
+	    text-align: center;
+    }
+
+    #about_part .col-lg-5 .right {
+        margin: 0;
+        text-align: center;
+    }
+
+    #about_part .col-lg-5 .right h3 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #about_part .col-lg-5 .right img {
+        margin: 0 auto;
+    }
+
+    #about_part .col-lg-5 .right p {
+        width: auto;
+	    margin: 17px 0;
+	    text-align: center;
+    }
+
+     
+    /* ====== about section ===== */
+     
+
+     
+    /* === book_table section === */
+     
+
+    #book_table {
+        padding: 100px 0;
+    }
+
+    #book_table .overround {
+        margin-right: 52px;
+    }
+
+    
+    #book_table .container .row .one {
+        order: 1;
+    }
+
+    #book_table .container .row .tow {
+        order: 3;
+    }
+
+    #book_table .container .row .three {
+        order: 2;
+    }
+
+     
+    /* === book_table section === */
+     
+
+     
+    /* === menu_part section ==== */
+     
+
+    #menu_part {
+        padding: 100px 0;
+    }
+
+    #menu_part .overround {
+        left: 0;
+        margin-left: 52px;
+    }
+
+    #menu_part .container .row .col-lg-12 .menu_text {
+        transform: translateX(0);
+    }
+
+    #menu_part .container .row .col-lg-12 .menu_text a {
+        font-size: 45px;
+    }
+
+     
+    /* === menu_part section ==== */
+     
+
+     
+    /* === today_menu section === */
+     
+
+    #today_menu {
+        padding: 100px 0;
+    }
+
+    #today_menu .container .row .col-lg-4 .menu_botol{
+        width: 100%;
+    }
+
+     
+    /* === today_menu section === */
+     
+
+     
+    /* === Chefs_info section === */
+     
+
+    #Chefs_info {
+        padding: 50px 0;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .main .sliders {
+        transform: translate(-50%,-50%) scale(.8);
+    }
+
+    #Chefs_info .container .row .col-lg-6 .main .one {
+        top: 4%;
+        right: 3%;
+    }
+    #Chefs_info .container .row .col-lg-6 .main .two {
+        bottom: 4%;
+        left: 3%;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .main {
+        height: 700px;
+        margin-bottom: 0;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .slider_part {
+        margin: 0;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .slider_part .text_slider .text_part h2 {
+        font-size: 50px;
+        margin-bottom: 34px;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .slider_part .text_slider .text_part p {
+        margin-bottom: 34px;
+    }
+
+    .overround {
+        margin-right: 52px;
+    }
+
+     
+    /* === Chefs_info section === */
+     
+
+     
+    /* === ridvew_part section == */
+     
+
+    #review_part {
+        padding: 100px 0;
+    }
+    
+    #review_part .container .row .col-lg-6 .reviewer .one img{
+        width: 150px;
+    }
+    #review_part .container .row .col-lg-6 .reviewer .one .comma {
+        width: auto;
+    }
+
+    #review_part .container .row .col-lg-6 .reviewer .two {
+        width: auto;
+    }
+
+    #review_part .container .row .col-lg-6 .reviewer .two p {
+        width: 350px;
+    }
+
+     
+    /* === ridvew_part section == */
+     
+
+     
+    /* === Video_part section === */
+     
+
+    #video_part {
+        padding: 100px 0;
+    }
+
+    #video_part .overround {
+        top: -50px;
+        left: 60px;
+    }
+    
+    #video_part .contaienr .row .col-lg-12 .video_link a i {
+        font-size: 100px;
+    }
+
+    #video_part .contaienr .row{
+        --bs-gutter-x: 0rem !important;
+    }
+    
+     
+    /* === Video_part section === */
+     
+
+     
+    /* == laurels_part section == */
+     
+
+    #laurels_part {
+        padding: 50px 0;
+    }
+
+    #laurels_part .container .row .text .text_left{
+        text-align: center;
+    }
+
+    #laurels_part .container .row .text .text_left h2 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #laurels_part .container .row .col-lg-6 .slider_part {
+        margin-left: 0px;
+    }
+
+    #laurels_part .container .row .col-lg-6 .slider_part img{
+        margin: 0 auto;
+    }
+    
+     
+    /* == laurels_part section == */
+     
+
+     
+    /* == Updates_part section == */
+     
+
+    #updates {
+        padding: 52px 0;
+    }
+    
+    #updates .container .row .col-lg-4 .card {
+        padding: 0 60px;
+    }
+
+    #updates .overround {
+        top: 100%;
+    }
+
+     
+    /* == Updates_part section == */
+     
+
+     
+    /* == Gallary_part section == */
+     
+
+    .text_left h4 {
+        font-size: 24px;
+    }
+
+    #gallary_part .container .row .col-lg-5 .text_left h2 {
+        font-size: 50px;
+    }
+
+    #gallary_part .text_left p {
+        font-size: 20px;
+    }
+
+    #gallary_part .overround {
+        top: 100%;
+    }
+
+    #gallary_part .container .row .slider_part {
+        top: 100%;
+        left: 0;
+    }
+
+    #gallary_part .container .row .slider_part .gallary_slider .slider .slider_card {
+        width: 270px;
+        object-fit: cover;
+    }
+    
+     
+    /* == Gallary_part section == */
+     
+
+     
+    /* == Footer_part section === */
+     
+
+    footer .floting_bar p {
+        font-size: 24px;
+    }
+
+    footer .floting_bar {
+        padding: 35px 30px;
+        width: 500px;
+    }
+
+    footer .floting_bar .input_bar {
+        flex-direction: column;
+        row-gap: 30px;
+        width: 100%;
+    }
+
+    footer .floting_bar .input_bar input {
+        width: 100%;
+        margin-right: 0;
+    }
+   
+     
+    /* == Footer_part section === */
+     
+
+}
+
+/* === For Medium Device === */
+ 
+/* === For Large Device === */
+ 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+
+    #banner_part .left {
+        display: none;
+    }
+    
+    .text_left p {
+        width: auto;
+    }
+
+    /* ===== header section ===== */
+     
+
+    header .navbar .container-fluid {
+        padding: 20px 20px;
+    }
+
+    header .navbar .navbar-brand img{
+        width: 150px;
+    }
+
+    header .navbar .navbar-nav .nav-item .nav-link {
+	    margin: 0;
+    }
+
+    header .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .d-flex {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    header .navbar .collapse .d-flex .btno {
+        color: #FFF;
+        font-size: 18px;
+    }
+
+    header .navbar .collapse .d-flex .btno:first-child {
+	    padding-right: 0;
+    }
+
+    header .navbar .collapse .d-flex .btno:last-child {
+	    padding-left: 0;
+    }
+    
+     
+    /* ===== header section ===== */
+     
+
+     
+    /* ===== banner section ===== */
+     
+
+    #banner_part .container .row .col-lg-6 .main .one {
+	    right: 17%;
+    }
+
+    #banner_part .container .row .col-lg-6 .main .two {
+        left: 17%;
+    }
+
+  
+     
+    /* ===== banner section ===== */
+     
+
+     
+    /* ====== about section ===== */
+     
+
+    #about_part .col-lg-5 .left {
+	    text-align: center;
+    }
+
+    #about_part .col-lg-5 .left img {
+	    margin: 0 auto;
+    }
+
+    #about_part .col-lg-5 .left p {
+        text-align: center;
+        margin: 30px auto;
+    }
+
+    #about_part .col-lg-2 .image img{
+        width: 150px;
+    }
+ 
+    
+    #about_part .col-lg-5 .right {
+	    text-align: center;
+    }
+
+    #about_part .col-lg-5 .right img {
+	    margin: 0 auto;
+    }
+
+    #about_part .col-lg-5 .right p {
+        text-align: center;
+        margin: 30px auto;
+    }
+
+     
+    /* ====== about section ===== */
+     
+
+     
+    /* === book_table section === */
+     
+
+    #book_table .container .row .one {
+        order: 1;
+    }
+
+    #book_table .container .row .tow {
+        order: 3;
+    }
+
+    #book_table .container .row .three {
+        order: 2;
+    }
+
+
+
+     
+    /* === book_table section === */
+     
+
+     
+    /* === menu_part section ==== */
+     
+
+    
+    #menu_part .container .row .col-lg-12 .menu_text {
+        transform: translateX(0);
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu_part .container .row .col-lg-12 .menu_text a {
+        font-size: 45px;
+    }
+   
+
+     
+    /* === menu_part section ==== */
+     
+
+     
+    /* === Video_part section === */
+     
+        
+    #video_part .contaienr .row{
+        --bs-gutter-x: 0rem !important;
+    }
+
+    
+     
+    /* === Video_part section === */
+     
+
+
+     
+    /* === today_menu section === */
+     
+
+
+    #today_menu .container .row .col-lg-4 .menu_botol{
+        margin: 0 auto;
+    }
+    
+
+     
+    /* === today_menu section === */
+     
+
+     
+    /* === Chefs_info section === */
+     
+
+    #Chefs_info .container .row .col-lg-6 .main .two {
+        left: 17%;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .main .one {
+        right: 17%;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .slider_part {
+        margin: 87px 0 0 12px;
+    }
+
+   
+     
+    /* === Chefs_info section === */
+     
+
+     
+    /* == Updates_part section == */
+     
+
+    
+    #updates .container .row .col-lg-4 .card .img img{
+        margin: 0 auto;
+    }
+
+
+    #updates .overround {
+        top: 100%;
+    }
+
+    
+
+     
+    /* == Updates_part section == */
+     
+
+     
+    /* == gallary_part section == */
+     
+
+    #gallary_part .container .row .slider_part {
+        top: 100%;
+        left: 0;
+        transform: translateX(0);
+    }
+
+    #gallary_part .overround {
+        top: 100%;
+    }
+     
+    /* == gallary_part section == */
+     
+
+    
+    
+     
+    /* == Footer_part section === */
+     
+    
+    
+    
+    footer .floting_bar {
+        padding: 64px 30px;
+        width: 100%;
+    }
+   
+     
+    /* == Footer_part section === */
+     
+
+}
+
+/* === For Large Device === */
+ 
+
+ 
+/* = For Extra Large Device = */
+ 
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+     
+    /* ===== header section ===== */
+     
+
+    header .navbar .container-fluid {
+        padding: 20px 20px;
+    }
+
+    header .navbar .navbar-brand img{
+        width: 150px;
+    }
+
+    header .navbar .navbar-nav .nav-item .nav-link {
+	    margin: 0;
+    }
+
+    header .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .d-flex {
+        row-gap: 20px;
+        flex-direction: column;
+    }
+
+    header .navbar .collapse .d-flex .btno {
+        color: #FFF;
+        font-size: 18px;
+    }
+
+    header .navbar .collapse .d-flex .btno:first-child {
+	    padding-right: 0;
+    }
+
+    header .navbar .collapse .d-flex .btno:last-child {
+	    padding-left: 0;
+    }
+    
+     
+    /* ===== header section ===== */
+     
+
+
+
+
+    
+     
+    /* == banner_part section === */
+     
+
+    #banner_part .left{
+        display: none;
+    }
+
+    #banner_part .right{
+        display: none;
+    }
+
+    #banner_part .container .row .col-lg-6 .main .one{
+        display: none;
+    }
+
+    #banner_part .container .row .col-lg-6 .main .two{
+        display: none;
+    }
+
+    
+     
+    /* == banner_part section === */
+     
+    
+     
+    /* === about_part section === */
+     
+
+
+    #about_part .col-lg-5 .left h3 {
+        font-size: 40px;
+    }
+    #about_part .col-lg-5 .left p {
+        width: auto;
+    }
+    #about_part .col-lg-5 .right p {
+        width: auto;
+    }
+    
+     
+    /* === about_part section === */
+     
+
+
+    
+     
+    /* === menu_part section === */
+     
+    #menu_part .container .row .col-lg-12 .menu_text {
+        transform: translateX(0);
+        text-align: center;
+        width: 100%;
+    }
+
+    #menu_part .container .row .col-lg-12 .menu_text a {
+        font-size: 38px;
+    }
+
+    #today_menu .container .row .col-lg-4 .menu_list h3 {
+        font-size: 31px;
+    }
+
+    #today_menu .container .row .col-lg-4 .menu_list .items .product p {
+        font-size: 20px;
+    }
+
+    #today_menu .container .row .col-lg-4 .menu_list .items .product .price {
+        font-size: 20px;
+    }
+
+    #today_menu .container .row .col-lg-4 .menu_list .items {
+        margin-bottom: 10px;
+    }
+
+    #today_menu .container .row .col-lg-4 .menu_botol {
+        width: 100%;
+    }
+
+    
+     
+    /* === menu_part section === */
+     
+    
+     
+    /* ==== chef_part section === */
+     
+
+    #Chefs_info .container .row .col-lg-6 .main .one{
+        display: none;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .main .two{
+        display: none;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .slider_part {
+        margin: 87px 0 0 0px;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .slider_part .text_slider .text_part h2 {
+        font-size: 45px;
+    }
+    
+    #Chefs_info .container .row .col-lg-6 .slider_part .text_slider .text_part p {
+        width: auto;
+    }
+
+    
+     
+    /* ==== chef_part section === */
+     
+
+
+     
+    /* === revew_part section === */
+     
+
+    #review_part .container .row .col-lg-6 .reviewer .one .comma {
+        transform: translate(0);
+        width: 35px;
+    }
+    #review_part .container .row .col-lg-6 .reviewer .two h3 {
+        font-size: 24px;
+    }
+
+    #review_part .container .row .col-lg-6 .reviewer .two h4 {
+        font-size: 14px;
+    }
+
+    #review_part .container .row .col-lg-6 .reviewer .two p {
+        font-size: 12px;
+    }
+
+    
+     
+    /* === revew_part section === */
+     
+
+     
+    /* === video_part section === */
+     
+
+    #video_part .contaienr .row .col-lg-12 .video_link a i {
+        font-size: 100px;
+    }
+    #video_part {
+        padding: 222px 0;
+    }
+    
+    #video_part .overround {
+        top: 0;
+        left: 97px;
+    }
+    
+    #video_part .contaienr .row{
+        --bs-gutter-x: 0rem !important;
+    }
+
+    
+     
+    /* === video_part section === */
+     
+
+     
+    /* === laure_part section === */
+     
+    #laurels_part .container .row .text .text_left {
+        text-align: center;
+    }
+
+    .text h2 {
+        font-size: 47px;
+    }
+
+    #laurels_part .container .row .text .text_left h2 {
+        text-align: center;
+    }
+
+    #laurels_part .container .row .text .one .text01 .textes h4 {
+        font-size: 20px;
+    }
+    #laurels_part .container .row .text .one .text01 .textes p {
+        font-size: 13px;
+    }
+    #laurels_part .container .row .col-lg-6 .slider_part .G {
+        right: 128px;
+    }
+    #laurels_part .container .row .col-lg-6 .slider_part {
+        margin-left: 0;
+    }
+    #laurels_part .container .row .text .one .text01 {
+        width: auto;
+    }
+    #laurels_part .container .row .text .one .text01 img {
+        width: 50px;
+    }
+    
+     
+    /* === laure_part section === */
+     
+
+     
+    /* == updates_part section == */
+     
+
+    #updates .container .row .col-lg-4 .card .img img {
+        width: 100%;
+    }
+    #updates .container .row .col-lg-4 .card .img {
+        height: auto;
+    }
+    #updates .container .row .col-lg-4 .card h2 {
+        font-size: 25px;
+    }
+
+    #updates .container .row .col-lg-4 .card p {
+        font-size: 14px;
+        width: auto;
+    }
+    #updates .overround {
+        top: 90%;
+    }
+    
+     
+    /* == updates_part section == */
+     
+
+     
+    /* == gallary_part section == */
+     
+
+    #gallary_part .container .row .slider_part {
+        left: 62%;
+    }
+
+    .text_left p {
+        width: auto;
+    }
+
+    #gallary_part .container .row .slider_part {
+        left: 0;
+        top: 100%;
+    }
+    #gallary_part .overround {
+        top: 100%;
+    }
+     
+    /* == gallary_part section == */
+     
+
+     
+    /* === footer_part section == */
+     
+    footer .container .col-lg-4 .two h2 {
+        font-size: 55px;
+    }
+    footer .container .col-lg-4 .two p {
+        width: auto;
+        font-size: 13px;
+    }
+    
+    footer .floting_bar {
+        padding: 64px 30px;
+        width: 100%;
+    }
+
+    footer .floting_bar {
+        padding: 64px 30px;
+        width: 100%;
+    }
+    .buttone {
+        margin-top: 30px;
+    }
+    footer .floting_bar .input_bar {
+        flex-direction: column;
+    }
+     
+    /* === footer_part section == */
+     
+
+}
+
+ 
+/* = For Extra Large Device = */
+ 
+
+
+
+ 
+/*For Extra Extra Large Device*/
+ 
+
+@media (min-width: 1200px) and (max-width: 1300px){
+
+     
+    /* ===== header section ===== */
+     
+    header .navbar .container-fluid {
+        padding: 32px 40px;
+    }
+
+    
+     
+    /* ===== header section ===== */
+     
+
+     
+    /* == banner_part section === */
+     
+    #banner_part .container .row .col-lg-6 .main .one {
+        display: none;
+    }
+    #banner_part .container .row .col-lg-6 .main .two {
+        display: none;
+    }
+
+    #banner_part .right {
+        bottom: 40px;
+    }
+    #banner_part .left {
+        top: 88%;
+    }
+
+    
+     
+    /* == banner_part section === */
+     
+    
+     
+    /* === About_part section === */
+     
+    
+    #about_part .col-lg-5 .left p {
+        width: auto;
+    }
+
+    #about_part .col-lg-5 .right p {
+        width: auto;
+    }
+    
+     
+    /* === About_part section === */
+     
+
+
+
+    
+     
+    /* === menu_part section === */
+     
+
+    #menu_part .container .row .col-lg-12 .menu_text {
+        transform: translateX(0);
+    }
+    #menu_part .container .row .col-lg-12 .menu_text a {
+        font-size: 50px;
+    }
+
+    #today_menu .container .row .col-lg-4 .menu_botol{
+        width: 100%;
+    }
+    
+     
+    /* === menu_part section === */
+     
+    
+     
+    /* ==== chef_part section === */
+     
+
+    #Chefs_info .container .row .col-lg-6 .main .one {
+        display: none;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .main .two {
+        display: none;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .slider_part {
+        margin: 87px 0 0 0;
+    }
+
+    
+     
+    /* ==== chef_part section === */
+     
+
+
+     
+    /* === revew_part section === */
+     
+
+
+    
+     
+    /* === revew_part section === */
+     
+
+     
+    /* === video_part section === */
+     
+
+    #video_part .overround {
+        top: 0px;
+        left: 97px;
+    }
+
+    
+    #video_part .contaienr .row{
+        --bs-gutter-x: 0rem !important;
+    }
+
+     
+    /* === video_part section === */
+     
+    /* === laure_part section === */
+     
+    /* === laure_part section === */
+     
+    /* == updates_part section == */
+     
+
+    #updates .container .row .col-lg-4 .card .img img {
+        width: 100%;
+    }
+
+    #updates .overround {
+        top: 90%;
+    }
+
+    #updates .container .row .col-lg-4 .card p {
+        width: auto;
+    }
+
+    /* == updates_part section == */
+    
+    /* == gallary_part section == */
+     
+    #gallary_part .container .row .slider_part {
+        top: 100%;
+        left: 0;
+    }
+     
+    /* == gallary_part section == */
+     
+    /* === footer_part section == */
+
+    footer .floting_bar {
+        padding: 44px 152px;
+    }
+
+    /* === footer_part section == */
+}
+/*For Extra Extra Large Device*/
+
+

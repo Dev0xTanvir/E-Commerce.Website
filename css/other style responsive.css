@@ -1,0 +1,665 @@
+ 
+/* === For X-Small Device === */
+ 
+@media (min-width: 300px) and (max-width: 575.98px) { 
+
+    #home_banner_part .container .row .col-lg-12 .slider_part {
+        width: auto;
+    }
+     
+    #home_banner_part h1 {
+        font-size: 50px;
+        letter-spacing: 1px;
+    }
+    #home_banner_part .bottom {
+        display: none;
+    }
+
+
+    #Entertainment .container .row .col-lg-5 img {
+        margin-top: 0;
+        width: 100%;
+    }
+    #Entertainment .container .row .col-lg-6 img {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #Entertainment .container .row .col-lg-6 .text_left .mini_spone {
+        width: auto;
+    }
+
+    #Entertainment .container .row .col-lg-6 .text_left h2 {
+        font-size: 25px;
+    }
+    #Entertainment .container .row .col-lg-6 .text_left p {
+        width: auto;
+    }
+    #poison_part {
+        padding: 50px 0 50px;
+    }
+    #poison_part .container .row .col-lg-4 .images {
+        margin-bottom: 20px;
+    }
+    #poison_part .container .row .col-lg-4 .images img{
+        width: 100%;
+    }
+
+    #hours_part .container .row .col-lg-12 .text h2 {
+        font-size: 35px;
+    }
+    .buttone {
+        margin-bottom: 50px;
+    }
+
+    #find_us_part .container .row .col-lg-6 .images img {
+        width: 100%;
+    }
+
+    #find_us_part .container .row .col-lg-6 .images .one {
+        display: none;
+    }
+
+    #find_us_part .container .row .col-lg-6 .images .two {
+        display: none;
+    }
+    #find_us_part .container .row .col-lg-6 .images img {
+        position: static;
+        transform: translate(0);
+    }
+
+    #find_us_part .container .row .col-lg-6 .images {
+        width: auto;
+        height: auto;
+    }
+
+    #find_us_part {
+        padding: 50px 0;
+    }
+    footer {
+        padding: 50px 030px;
+    }
+
+    
+    /* ================================================== */
+    /* ================================================== */
+    /* ===================service css=================== */
+    /* ================================================== */
+    /* ================================================== */
+
+    #weoffer .container .row .col-lg-12 h2 {
+        font-size: 35px;
+    }
+    #weoffer .container .row .col-lg-12 p {
+        font-size: 12px;
+    }
+    #weoffer {
+        padding: 154px 0;
+    }
+
+    #quality {
+        padding: 96px 0 52px;
+    }
+    #quality .container .row .col-lg-12 .text p {
+        font-size: 12px;
+        width: auto;
+    }
+    #quality .container .row .col-lg-12 .text .btn .buttone {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    
+    /* ================================================== */
+    /* ================================================== */
+    /* =================== About US css================== */
+    /* ================================================== */
+    /* ================================================== */
+
+    #history_wirh_us_part .history .container .row .col-lg-6 .counter_part {
+        flex-wrap: wrap;
+    }
+    #history_wirh_us_part .history .container .row .col-lg-6 .counter_part .counter_line_img{
+        display: none;
+    }
+    #history_wirh_us_part .history .container .row .col-lg-6 .counter_part .one h3 {
+        text-align: center;
+    }
+    #history_wirh_us_part .history .container .row .col-lg-6 .counter_part .one img {
+        margin: 0 auto;
+    }
+    #history_wirh_us_part .history .container .row .col-lg-6 h3 {
+        font-size: 35px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    #history_wirh_us_part .aboutus_section .text p {
+        font-size: 14px;
+        width: auto;
+    }
+    #history_wirh_us_part .aboutus_section #video_part .overround {
+        top: -95px;
+        left: 40%;
+    }
+
+    /* ================================================== */
+    /* ================================================== */
+    /* ================= Contact US css================== */
+    /* ================================================== */
+    /* ================================================== */
+
+    #map_section .overround {
+        top: 80%;
+        right: 0;
+    }
+    #map_section .container .row .col-lg-12 iframe {
+        height: 350px;
+    }
+    /* ============================================== */
+    /* ============================================== */
+    /* =================member css=================== */
+    /* ============================================== */
+    /* ============================================== */
+
+    #Chefs_info .container .row .col-lg-6 .text_part {
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    #Chefs_info .container .row .col-lg-6.text_part h4 {
+        font-size: 20px;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .text_part h2 {
+        font-size: 40px;
+        margin-bottom: 24px;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .text_part p {
+        font-size: 12px;
+        width: auto;
+        margin-bottom: 24px;
+    }
+
+    #Chefs_info .container .row .col-lg-6.text_part p img{
+        width: 20px;
+    }
+
+    #Chefs_info .container .row .col-lg-6.text_part .signature {
+        font-size: 40px;
+    }
+
+    /* ============================================== */
+    /* ============================================== */
+    /* ================= Blogs css=================== */
+    /* ============================================== */
+    /* ============================================== */
+
+    #blog_part .container .row .col-lg-8 .container .row .col-lg-6 .card p {
+        width: auto;
+    }
+
+    #blog_part .container .row .col-lg-4 .box .bar .bar_line::after {
+        width: 59px;
+        left: -40px;
+    }
+
+    
+    #blog_part .container .row .tagcomment{
+        flex-wrap: wrap;
+    }
+
+    #question_part .container .row .col-lg-6 .one{
+        display: none;
+    }
+
+    #question_part .container .row .col-lg-6 .two{
+        display: none;
+    }
+
+    #question_part .container .row .col-lg-6 img{
+        width: 100%;
+    }
+
+    #question_part .container .overround{
+        display: none;
+    }
+
+    #soon_part .container h3 {
+        font-size: 40px;
+    }
+    #soon_part .container p {
+        width: auto;
+        font-size: 12px;
+    }
+        
+    #soon_part .container .erroe_404{
+        font-size: 190px;
+    }
+}
+
+/* === For X-Small Device === */
+
+
+/* === For Medium Device === */
+ 
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+    #home_banner_part .container .row .col-lg-12 .slider_part {
+        width: auto;
+    }
+     
+    #home_banner_part h1 {
+        font-size: 90px;
+        letter-spacing: 1px;
+    }
+    #home_banner_part .bottom {
+        display: none;
+    }
+
+
+    
+    #Entertainment .container .row .col-lg-5 img {
+        margin-top: 0;
+        width: 100%;
+    }
+    #Entertainment .container .row .col-lg-6 img {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #Entertainment .container .row .col-lg-6 .text_left .mini_spone {
+        width: auto;
+    }
+
+    #Entertainment .container .row .col-lg-6 .text_left h2 {
+        font-size: 54px;
+    }
+    
+    #poison_part .container .row .col-lg-4 .images img{
+        width: 100%;
+    }
+    #poison_part .container .row .col-lg-4{
+        margin-bottom: 20px;
+    }
+    #hours_part .container .row .col-lg-12 .text h2 {
+        font-size: 90px;
+        margin-bottom: 20px;
+    }
+         #hours_part .container .row .col-lg-12 .text p {
+        font-size: 24px;
+    }
+
+    #find_us_part .container .row .col-lg-6 .images .one {
+        top: -14px;
+        right: -14px;;
+    }
+    #find_us_part .container .row .col-lg-6 .images .two {
+        top: -14px;
+        right: -14px;;
+    }
+    footer .floting_bar {
+        margin: 0 auto 128px;
+    }
+
+
+    /* ================================================== */
+    /* ================================================== */
+    /* ===================service css==================== */
+    /* ================================================== */
+    /* ================================================== */
+
+    #weoffer {
+        padding: 200px 0;
+    }
+    #weoffer .container .row .col-lg-12 h2 {
+        font-size: 70px;
+    }
+
+    #quality .container .row .col-lg-12 .text p {
+        width: auto;
+    }
+        
+    /* ================================================== */
+    /* ================================================== */
+    /* =================== About US css================== */
+    /* ================================================== */
+    /* ================================================== */
+
+    #history_wirh_us_part .history .container .row .col-lg-6 .counter_part {
+        flex-wrap: wrap;
+    }
+    #history_wirh_us_part .history .container .row .col-lg-6 .counter_part .counter_line_img{
+        display: none;
+    }
+    #history_wirh_us_part .history .container .row .col-lg-6 .counter_part .one h3 {
+        text-align: center;
+    }
+    #history_wirh_us_part .history .container .row .col-lg-6 .counter_part .one img {
+        margin: 0 auto;
+    }
+    #history_wirh_us_part .aboutus_section .text p {
+        width: auto;
+    }
+    #history_wirh_us_part .aboutus_section #video_part .overround {
+        display: none;
+    }
+    #history_wirh_us_part .history .container .row .col-lg-5 img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    /* ================================================== */
+    /* ================================================== */
+    /* ================= Contact US css================== */
+    /* ================================================== */
+    /* ================================================== */
+
+    #map_section .overround {
+        right: 0%;
+    }
+
+
+    /* ============================================== */
+    /* ============================================== */
+    /* =================member css=================== */
+    /* ============================================== */
+    /* ============================================== */
+    
+    #Chefs_info .container .row .col-lg-6 .text_part {
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    #Chefs_info .container .row .col-lg-6 .text_part h2 {
+        font-size: 50px;
+        margin-bottom: 34px;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .text_part p {
+        margin-bottom: 34px;
+    }
+
+
+    
+    /* ============================================== */
+    /* ============================================== */
+    /* ================= Blogs css=================== */
+    /* ============================================== */
+    /* ============================================== */
+
+    #blog_part .container .row .col-lg-8 .container .row .col-lg-6 .card p {
+        width: auto;
+    }
+    #blog_part .container .row .col-lg-4 .box .bar .bar_line::after {
+        width: 159px;
+        left: -100px;
+    }
+
+
+    #question_part .container .row .col-lg-6 .one{
+        display: none;
+    }
+
+    #question_part .container .row .col-lg-6 .two{
+        display: none;
+    }
+
+    #question_part .container .row .col-lg-6 img{
+        width: 100%;
+    }
+
+    #question_part .container .overround{
+        display: none;
+    }
+
+
+    #soon_part .container p {
+        width: auto;
+    }
+
+
+
+
+}
+
+/* === For Medium Device === */
+
+
+ 
+/* === For Large Device === */
+ 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    #home_banner_part h1 {
+        font-size: 110px;
+    }
+
+    #Entertainment .container .row .col-lg-5 img {
+        width: 100%;
+    }
+    #Entertainment .container .row .col-lg-6 img {
+        width: 100%;
+    }
+    #Entertainment .container .row .col-lg-6 .text_left .mini_spone {
+        width: auto;
+    }
+    #Entertainment .container .row .col-lg-6 .text_left h2 {
+        font-size: 35px;
+    }
+    #poison_part .container .row .col-lg-4 .images img {
+        width: 100%;
+    }
+    #Entertainment .container .row .col-lg-6 .text_left p {
+        width: auto;
+    }
+    .buttone {
+        margin-bottom: 57px;
+    }
+
+    /* ================================================== */
+    /* ================================================== */
+    /* ===================service css==================== */
+    /* ================================================== */
+    /* ================================================== */
+
+    #quality .container .row .col-lg-12 .text p {
+        width: auto;
+    }
+
+    /* ================================================== */
+    /* ================================================== */
+    /* =================== About US css================== */
+    /* ================================================== */
+    /* ================================================== */
+
+    #history_wirh_us_part .history .container .row .col-lg-5 img {
+        margin-bottom: 20px;
+    }
+    #history_wirh_us_part .aboutus_section .text p {
+        width: auto;
+    }
+    #history_wirh_us_part .aboutus_section #video_part .overround {
+        top: -453px;
+        left: 70%;
+    }
+
+    
+    /* ================================================== */
+    /* ================================================== */
+    /* ================= Contact US css================== */
+    /* ================================================== */
+    /* ================================================== */
+
+    #map_section .overround {
+        right: 0%;
+    }
+
+
+    /* ============================================== */
+    /* ============================================== */
+    /* =================member css=================== */
+    /* ============================================== */
+    /* ============================================== */
+
+    #Chefs_info .container .row .col-lg-6 .text_part {
+        width: 100%;
+        margin: 87px 0 0 10px;
+    }
+
+    
+    #question_part .container .row .col-lg-6 .one{
+        display: none;
+    }
+
+    #question_part .container .row .col-lg-6 .two{
+        display: none;
+    }
+
+    #question_part .container .row .col-lg-6 img{
+        width: 100%;
+    }
+
+    #question_part .container .overround{
+        display: none;
+    }
+
+
+}
+
+/* === For Large Device === */
+
+
+/* = For Extra Large Device = */
+ 
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    
+    #home_banner_part h1 {
+        font-size: 151px;
+    }
+
+    #Entertainment .container .row .col-lg-5 img{
+        width: 100%;
+    }
+
+    #Entertainment .container .row .col-lg-6 img{
+        width: 100%;
+    }
+    #Entertainment .container .row .col-lg-6 .text_left .mini_spone{
+        width: auto;
+    }
+    #Entertainment .container .row .col-lg-6 .text_left h2 {
+        font-size: 50px;
+    }
+    #Entertainment .container .row .col-lg-6 .text_left p {
+        width: auto;
+    }
+    #find_us_part .container .row .col-lg-6 .images img {
+        width: 100%;
+    }
+    #find_us_part .container .row .col-lg-6 .images .one{
+        display: none;
+    }
+    #find_us_part .container .row .col-lg-6 .images .two{
+        display: none;
+    }
+
+    /* ================================================== */
+    /* ================================================== */
+    /* =================== About US css================== */
+    /* ================================================== */
+    /* ================================================== */
+
+    #history_wirh_us_part .history .container .row .col-lg-6 .counter_part {
+        column-gap: 0px;
+    }
+    #history_wirh_us_part .history .container .row .col-lg-6 .counter_part img{
+        display: none;
+    }
+    #history_wirh_us_part .aboutus_section #video_part .overround {
+        top: -325px;
+    }
+
+    
+    /* ================================================== */
+    /* ================================================== */
+    /* ================= Contact US css================== */
+    /* ================================================== */
+    /* ================================================== */
+
+    #map_section .overround {
+        right: 0%;
+    }
+    /* ============================================== */
+    /* ============================================== */
+    /* =================member css=================== */
+    /* ============================================== */
+    /* ============================================== */
+
+    #Chefs_info .container .row .col-lg-6 .text_part {
+        margin: 87px 0 0 10px;
+    }
+
+    #Chefs_info .container .row .col-lg-6 .text_part p {
+        width: auto;
+    }
+
+    
+    #question_part .container .row .col-lg-6 .one{
+        display: none;
+    }
+
+    #question_part .container .row .col-lg-6 .two{
+        display: none;
+    }
+
+    #question_part .container .row .col-lg-6 img{
+        width: 100%;
+    }
+
+    #question_part .container .overround{
+        display: none;
+    }
+
+}
+
+ 
+/* = For Extra Large Device = */
+
+
+/*For Extra Extra Large Device*/
+ 
+
+@media (min-width: 1200px) and (max-width: 1300px){
+    /* ================================================== */
+    /* ================================================== */
+    /* =================== About US css================== */
+    /* ================================================== */
+    /* ================================================== */
+    #history_wirh_us_part .history .container .row .col-lg-6 .counter_part {
+        column-gap: 50px;
+    }  
+    
+
+    /* ============================================== */
+    /* ============================================== */
+    /* =================member css=================== */
+    /* ============================================== */
+    /* ============================================== */
+    #Chefs_info .container .row .col-lg-6 .text_part {
+        width: 100%;
+        margin: 87px 0 0 10px;
+    }
+
+
+    #question_part .container .row .col-lg-6 img{
+        width: 100%;
+    }
+
+    #question_part .container .overround{
+        display: none;
+    }
+
+}
+/*For Extra Extra Large Device*/
+
